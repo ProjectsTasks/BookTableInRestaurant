@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/image_view_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:text="Customer Name: "
+            android:textColor="@color/txt"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/image_view_phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:text="Contact Number: "
+            android:textColor="@color/txt"
+            android:textSize="18sp">
+        </TextView>
+        <TextView
+            android:id="@+id/image_view_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Booked Date: "
+            android:paddingLeft="10dp"
+            android:textColor="@color/txt"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/image_view_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:text="Booked Time: "
+            android:textColor="@color/txt"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/image_view_person2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:text="Reservation is: "
+            android:textColor="@color/txt"
+            android:textSize="18sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/aclonica"
+            android:textAllCaps="false"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:text="Update Reservation"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </Button>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

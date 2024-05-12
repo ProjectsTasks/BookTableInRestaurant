@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277862544943",
+    "project_id": "tablebookinginrestaurantapp",
+    "storage_bucket": "tablebookinginrestaurantapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277862544943:android:3e941cc22a9b73d6e0f8da",
+        "android_client_info": {
+          "package_name": "com.example.booktab_tablebookinginrestaurantapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbV2xxaSXXwYNEmIxVrFURyEpw8_MkFfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
